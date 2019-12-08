@@ -94,17 +94,15 @@
 		DDB640E2239B9AAA0041B1A5 /* Dusts */ = {
 			isa = PBXGroup;
 			children = (
+				DDB6410A239CA6900041B1A5 /* Configuration */,
+				DDB6410B239CA6C80041B1A5 /* View */,
 				DDB64107239BB2100041B1A5 /* Model */,
 				DDB64106239BB1E90041B1A5 /* ViewControllers */,
 				DDB640E3239B9AAA0041B1A5 /* AppDelegate.swift */,
-				DDB64108239BDA940041B1A5 /* BottomCell.swift */,
 				DDB640E5239B9AAA0041B1A5 /* SceneDelegate.swift */,
-				DDB640E9239B9AAA0041B1A5 /* Main.storyboard */,
 				DDB640FA239B9C910041B1A5 /* ApiHelper.swift */,
 				DDB640EF239B9AAB0041B1A5 /* Assets.xcassets */,
-				DDB640F1239B9AAB0041B1A5 /* LaunchScreen.storyboard */,
 				DDB640EC239B9AAA0041B1A5 /* Dusts.xcdatamodeld */,
-				DDB640FE239BA9680041B1A5 /* Configuration.swift */,
 				DDB640F4239B9AAB0041B1A5 /* Info.plist */,
 			);
 			path = Dusts;
@@ -126,6 +124,24 @@
 				DDB640FC239BA8C10041B1A5 /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DDB6410A239CA6900041B1A5 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				DDB640FE239BA9680041B1A5 /* Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		DDB6410B239CA6C80041B1A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDB64108239BDA940041B1A5 /* BottomCell.swift */,
+				DDB640F1239B9AAB0041B1A5 /* LaunchScreen.storyboard */,
+				DDB640E9239B9AAA0041B1A5 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
